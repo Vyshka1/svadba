@@ -187,3 +187,8 @@
     text-transform:uppercase;color:var(--blue-ink);text-decoration:none;
     border:1px solid var(--line);border-radius:999px;padding:8px 18px;background:var(--paper)}
   .back:hover{border-color:var(--blue)}
+
+  /* фото площадки в «Дне свадьбы» */
+  .venue{display:block;margin:0 0 18px}
+  .venue img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;
+    border-radius:3px;background:#E7DFD6}
