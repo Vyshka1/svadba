@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Где поесть · 22 августа, Челябинск</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<div class="wrap">
+  <nav class="nav">
+    <a href="index.html">Главная</a>
+    <a href="eda.html" class="act">Поесть</a>
+    <a href="kuda.html">Куда сходить</a>
+    <a href="vecher.html">Вечером</a>
+    <a href="salony.html">Салоны</a>
+  </nav>
+
+  <header class="ph-head">
+    <p class="eyebrow">22 августа · Челябинск</p>
+    <h1>Где поесть</h1>
+    <p class="lede">Всё в центре, два-три километра от отеля</p>
+  </header>
+
+  <section id="eda">
+    <div class="filt" id="filt">
+      <button class="act" data-f="all">Все</button>
+      <button data-f="blizko">Рядом с отелем</button>
+      <button data-f="rus">Русская</button>
+      <button data-f="asia">Азиатская</button>
+      <button data-f="company">Компанией</button>
+      <button data-f="delivery">Доставка</button>
+    </div>
+
+    <div class="card" data-t="blizko" data-photo="oblaka">
+      <picture>
+        <source srcset="photos/oblaka.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/oblaka.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Облака</h3>
+      <p class="kind">Ресторан-бар на 27 этаже отеля, панорамный вид на город</p>
+      <p class="meta">пр. Ленина, 26А — в вашем отеле<br><span>Пн–Сб 13:00–00:00 · Вс выходной</span>
+        <span class="dist">Лифт с вашего этажа — никуда ехать не нужно</span></p>
+      <div class="links">
+        <a href="https://hotelvidgof.ru/restorany/restoran-bar-oblaka">Страница отеля</a>
+        <a href="https://oblaka174.ru/">Сайт</a>
+        <a href="tel:+73512777771">Позвонить</a>
+      </div>
+      <p class="note">Сто метров над городом. Столик к закату лучше занять заранее — вид того стоит.</p>
+    </div>
+
+    <div class="card" data-t="blizko" data-photo="hachapuri">
+      <picture>
+        <source srcset="photos/hachapuri.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/hachapuri.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Хачапури. Выпечка и вино</h3>
+      <p class="kind">Грузинская кухня в ТРК «Горки»</p>
+      <p class="meta">ул. Артиллерийская, 136, ТРК «Горки»<br><span>Ежедневно 10:00–22:00</span>
+        <span class="dist">170 м — две минуты пешком, ближе всего к отелю</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/org/khachapuri_vypechka_i_vino/110629027806/">Карта</a>
+        <a href="https://hachapuri-chelyabinsk.ru/">Сайт</a>
+        <a href="tel:+79191235288">Позвонить</a>
+      </div>
+    </div>
+
+    <div class="card" data-t="blizko" data-photo="sicilia">
+      <picture>
+        <source srcset="photos/sicilia.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/sicilia.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Сицилия</h3>
+      <p class="kind">Итальянская, паста и пицца</p>
+      <p class="meta">ул. Тимирязева, 28<br><span>Пн–Пт 12:00–23:00 · Сб–Вс 11:00–23:00</span>
+        <span class="price">Средний чек ≈2050 ₽</span>
+        <span class="dist">≈2 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, улица Тимирязева, 28 Сицилия">Карта</a>
+        <a href="https://sicilia74.ru/">Сайт</a>
+        <a href="https://www.instagram.com/siciliaresto/">Instagram</a>
+      </div>
+    </div>
+
+    <div class="card" data-t="blizko" data-photo="manana">
+      <picture>
+        <source srcset="photos/manana.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/manana.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Манана Мама</h3>
+      <p class="kind">Грузинская кухня, хинкали и хачапури</p>
+      <p class="meta">ул. Цвиллинга, 42, цокольный этаж<br><span>Ежедневно 12:00–23:00</span>
+        <span class="dist">≈2 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, улица Цвиллинга, 42 Манана Мама">Карта</a>
+        <a href="tel:+79087024979">Позвонить</a>
+      </div>
+      <p class="note">Столик бронировать обязательно — место популярное, без брони можно не сесть.</p>
+    </div>
+
+    <div class="card" data-t="blizko rus" data-photo="redactor">
+      <picture>
+        <source srcset="photos/redactor.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/redactor.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Редактор</h3>
+      <p class="kind">Европейская и русская кухня в авторском прочтении</p>
+      <p class="meta">ул. Советская, 36<br><span>Вт–Сб 12:00–23:00 · Вс и Пн выходные</span><br>
+        <span>Wi-Fi, парковка</span>
+        <span class="dist">≈2 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/org/redaktor/135559419801/">Карта</a>
+        <a href="http://restoran-redactor.ru/">Сайт</a>
+        <a href="https://www.instagram.com/restaurant_redactor/">Instagram</a>
+        <a href="tel:+73512004205">Позвонить</a>
+      </div>
+      <p class="note">В воскресенье и понедельник закрыт — попасть получится только до свадьбы, в четверг или пятницу.</p>
+    </div>
+
+    <div class="card" data-t="blizko rus" data-photo="bufet">
+      <picture>
+        <source srcset="photos/bufet.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/bufet.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Буфет на Большой</h3>
+      <p class="kind">Русская кухня в историческом центре</p>
+      <p class="meta">ул. Цвиллинга, 20<br><span>Ежедневно 12:00–00:00</span>
+        <span class="price">Средний чек ≈1700 ₽</span>
+        <span class="dist">≈2,3 км — рядом с Кировкой</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, улица Цвиллинга, 20 Буфет на Большой">Карта</a>
+        <a href="https://bufetnabolshoy.ru">Сайт</a>
+        <a href="https://www.instagram.com/bufet.rest/">Instagram</a>
+      </div>
+      <p class="note">Про завтраки спросите по телефону — их подают по отдельному расписанию.</p>
+    </div>
+
+    <div class="card" data-t="blizko rus" data-photo="tabaka">
+      <picture>
+        <source srcset="photos/tabaka.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/tabaka.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Цыплята табака</h3>
+      <p class="kind">Тот самый цыплёнок табака, летняя веранда</p>
+      <p class="meta">ул. Кирова, 139<br><span>Ежедневно 12:00–24:00</span>
+        <span class="dist">≈2,5 км — на Кировке</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, улица Кирова, 139 Цыплята табака">Карта</a>
+        <a href="https://tabaka74.ru/">Сайт</a>
+        <a href="tel:+79000950856">Позвонить</a>
+      </div>
+    </div>
+
+    <div class="card" data-t="blizko rus" data-photo="rodnya">
+      <picture>
+        <source srcset="photos/rodnya.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/rodnya.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Родня</h3>
+      <p class="kind">Русская кухня и стейки, вечером живая музыка</p>
+      <p class="meta">ул. Кирова, 82, второй этаж<br><span>Ежедневно 12:00–00:00</span>
+        <span class="price">Средний чек ≈850 ₽, ланч от 550 ₽</span>
+        <span class="dist">≈2,7 км — прямо на Кировке</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, улица Кирова, 82 Родня">Карта</a>
+        <a href="https://rodnya74.ru">Сайт</a>
+      </div>
+    </div>
+
+    <div class="card" data-t="asia" data-photo="lancheria">
+      <picture>
+        <source srcset="photos/lancheria.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/lancheria.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Ланчерия</h3>
+      <p class="kind">Паназиатская: рамен, поке, роллы</p>
+      <p class="meta">пр. Ленина, 63<br><span>Ежедневно до 23:00</span><br>
+        <span>Ещё точки: ул. Академика Макеева, 26 · Советская, 38</span>
+        <span class="dist">≈3 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, проспект Ленина, 63 Ланчерия">Карта</a>
+        <a href="https://www.instagram.com/lancheria.ru/">Instagram</a>
+      </div>
+    </div>
+
+    <div class="card" data-t="asia" data-photo="asabi">
+      <picture>
+        <source srcset="photos/asabi.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/asabi.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Asabi</h3>
+      <p class="kind">Паназиатская: суши, утка, бранчи по выходным</p>
+      <p class="meta">пр. Ленина, 66а<br><span>Вс–Чт 12:00–23:00 · Пт–Сб 12:00–01:00</span>
+        <span class="price">Средний чек ≈1550 ₽</span>
+        <span class="dist">≈4 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, проспект Ленина, 66а Асаби">Карта</a>
+        <a href="https://asabi74.ru/">Сайт</a>
+        <a href="https://www.instagram.com/asabi74/">Instagram</a>
+      </div>
+      <p class="note">Кухню хвалят, но еду иногда несут долго — не заходите, если спешите.</p>
+    </div>
+
+    <div class="card" data-t="company" data-photo="belyrynok">
+      <picture>
+        <source srcset="photos/belyrynok.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/belyrynok.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Белый рынок</h3>
+      <p class="kind">Гастромаркет: двадцать корнеров и два бара</p>
+      <p class="meta">ул. Тернопольская, 6<br><span>Вс–Чт 11:00–22:00 · Пт–Сб 11:00–00:00</span>
+        <span class="dist">≈5 км</span></p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, Тернопольская, 6 Белый рынок">Карта</a>
+        <a href="https://nabelom.ru">Сайт</a>
+        <a href="https://www.instagram.com/nabelom.ru/">Instagram</a>
+      </div>
+      <p class="note">Лучший вариант, когда компания большая и все хотят разного.</p>
+    </div>
+
+    <div class="card" data-t="delivery" data-photo="sushimango">
+      <picture>
+        <source srcset="photos/sushimango.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/sushimango.jpg" loading="lazy" decoding="async">
+      </picture>
+      <h3>Sushi Манго</h3>
+      <p class="kind">Доставка суши и роллов в номер</p>
+      <p class="meta">ул. Образцова, 28 — только доставка и самовывоз</p>
+      <div class="links">
+        <a href="https://yandex.ru/maps/?text=Челябинск, Sushi Манго доставка">Карта</a>
+        <a href="https://vk.ru/market-226143967">Меню ВКонтакте</a>
+      </div>
+    </div>
+
+    <p class="standalone">Компанией больше четырёх человек — бронируйте стол заранее. В пятницу и субботу вечером места разбирают.</p>
+  </section>
+
+  <footer>
+    <a class="back" href="index.html">← На главную</a>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
