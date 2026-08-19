@@ -126,6 +126,7 @@
   .card .ill .b{fill:#C3CEDC}
 
   /* photos */
+  .card picture{display:block}
   .card img.ph{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;
     border-radius:3px;margin:-2px 0 15px;background:#E7DFD6}
 
@@ -241,7 +242,11 @@
     <div class="rule"></div>
     <h2>Где вы живёте</h2>
     <div class="card" data-photo="vidgof">
-      <img class="ph" alt="" src="photos/vidgof.jpg">
+      <picture>
+        <source srcset="photos/vidgof.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/vidgof.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Гранд Отель Видгоф</h3>
       <p class="kind">Ресепшн круглосуточно</p>
       <p class="meta">пр. Ленина, 26А<br><span>Бассейн, тренажёрный зал, завтрак</span></p>
@@ -265,8 +270,12 @@
       <button data-f="delivery">Доставка</button>
     </div>
 
-    <div class="card" data-t="blizko italy" data-photo="sicilia">
-      <img class="ph" alt="" src="photos/sicilia.jpg">
+    <div class="card" data-t="blizko" data-photo="sicilia">
+      <picture>
+        <source srcset="photos/sicilia.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/sicilia.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Сицилия</h3>
       <p class="kind">Итальянская, паста и пицца</p>
       <p class="meta">ул. Тимирязева, 28<br><span>Пн–Пт 12:00–23:00 · Сб–Вс 11:00–23:00</span>
@@ -280,7 +289,11 @@
     </div>
 
     <div class="card" data-t="blizko rus" data-photo="bufet">
-      <img class="ph" alt="" src="photos/bufet.jpg">
+      <picture>
+        <source srcset="photos/bufet.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/bufet.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Буфет на Большой</h3>
       <p class="kind">Русская кухня в историческом центре</p>
       <p class="meta">ул. Цвиллинга, 20<br><span>Ежедневно 12:00–00:00</span>
@@ -295,7 +308,11 @@
     </div>
 
     <div class="card" data-t="blizko rus" data-photo="zhuravlina">
-      <img class="ph" alt="" src="photos/zhuravlina.jpg">
+      <picture>
+        <source srcset="photos/zhuravlina.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/zhuravlina.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Журавлина</h3>
       <p class="kind">Славянская кухня, вареники и борщ</p>
       <p class="meta">ул. Кирова, 163<br><span>Ежедневно 12:00–23:00</span>
@@ -308,7 +325,11 @@
     </div>
 
     <div class="card" data-t="blizko rus" data-photo="rodnya">
-      <img class="ph" alt="" src="photos/rodnya.jpg">
+      <picture>
+        <source srcset="photos/rodnya.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/rodnya.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Родня</h3>
       <p class="kind">Русская кухня и стейки, вечером живая музыка</p>
       <p class="meta">ул. Кирова, 82, второй этаж<br><span>Ежедневно 12:00–00:00</span>
@@ -321,7 +342,11 @@
     </div>
 
     <div class="card" data-t="asia" data-photo="lancheria">
-      <img class="ph" alt="" src="photos/lancheria.jpg">
+      <picture>
+        <source srcset="photos/lancheria.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/lancheria.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Ланчерия</h3>
       <p class="kind">Паназиатская: рамен, поке, роллы</p>
       <p class="meta">пр. Ленина, 63<br><span>Ежедневно до 23:00</span><br>
@@ -334,7 +359,11 @@
     </div>
 
     <div class="card" data-t="asia" data-photo="asabi">
-      <img class="ph" alt="" src="photos/asabi.jpg">
+      <picture>
+        <source srcset="photos/asabi.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/asabi.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Asabi</h3>
       <p class="kind">Паназиатская: суши, утка, бранчи по выходным</p>
       <p class="meta">пр. Ленина, 66а<br><span>Вс–Чт 12:00–23:00 · Пт–Сб 12:00–01:00</span>
@@ -349,7 +378,11 @@
     </div>
 
     <div class="card" data-t="company" data-photo="belyrynok">
-      <img class="ph" alt="" src="photos/belyrynok.jpg">
+      <picture>
+        <source srcset="photos/belyrynok.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/belyrynok.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Белый рынок</h3>
       <p class="kind">Гастромаркет: двадцать корнеров и два бара</p>
       <p class="meta">ул. Тернопольская, 6<br><span>Вс–Чт 11:00–22:00 · Пт–Сб 11:00–00:00</span>
@@ -363,7 +396,11 @@
     </div>
 
     <div class="card" data-t="delivery" data-photo="sushimango">
-      <img class="ph" alt="" src="photos/sushimango.jpg">
+      <picture>
+        <source srcset="photos/sushimango.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/sushimango.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Sushi Манго</h3>
       <p class="kind">Доставка суши и роллов в номер</p>
       <p class="meta">ул. Образцова, 28 — только доставка и самовывоз</p>
@@ -381,7 +418,11 @@
     <h2>Куда сходить</h2>
 
     <div class="card" data-photo="kirovka">
-      <img class="ph" alt="" src="photos/kirovka.jpg">
+      <picture>
+        <source srcset="photos/kirovka.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/kirovka.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Кировка</h3>
       <p class="kind">Пешеходная улица, дома 92–100 по улице Кирова</p>
       <p class="meta"><span>Открыта всегда — лучше вечером</span>
@@ -393,7 +434,11 @@
     </div>
 
     <div class="card" data-photo="naberezhnaya">
-      <img class="ph" alt="" src="photos/naberezhnaya.jpg">
+      <picture>
+        <source srcset="photos/naberezhnaya.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/naberezhnaya.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Набережная реки Миасс</h3>
       <p class="kind">Прогулочная набережная в центре</p>
       <p class="meta"><span>Открыта всегда</span>
@@ -404,7 +449,11 @@
     </div>
 
     <div class="card" data-photo="gagarin">
-      <img class="ph" alt="" src="photos/gagarin.jpg">
+      <picture>
+        <source srcset="photos/gagarin.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/gagarin.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Парк имени Гагарина</h3>
       <p class="kind">Главный парк города, вход с улицы Труда</p>
       <p class="meta"><span>Лесопарк со скалами и прудами, аттракционы, зоопарк рядом</span>
@@ -415,7 +464,11 @@
     </div>
 
     <div class="card" data-photo="hwoya">
-      <img class="ph" alt="" src="photos/hwoya.jpg">
+      <picture>
+        <source srcset="photos/hwoya.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/hwoya.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Хвоя</h3>
       <p class="kind">Термальный спа-комплекс на границе городского бора</p>
       <p class="meta">ул. Лесопарковая, 9А<br><span>Возраст 14+</span>
@@ -434,7 +487,11 @@
     <h2>Вечером</h2>
 
     <div class="card" data-photo="ugol">
-      <img class="ph" alt="" src="photos/ugol.jpg">
+      <picture>
+        <source srcset="photos/ugol.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/ugol.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Уголь Лаунж</h3>
       <p class="kind">Кальяны и авторская кухня, панорамные окна</p>
       <p class="meta">пр. Ленина, 64Б, ЖК «Алое поле»<br><span>Второй этаж, вход с улицы Володарского</span>
@@ -447,7 +504,11 @@
     </div>
 
     <div class="card" data-photo="siberia">
-      <img class="ph" alt="" src="photos/siberia.jpg">
+      <picture>
+        <source srcset="photos/siberia.webp" type="image/webp">
+        <img class="ph" alt="" src="photos/siberia.jpg"
+             width="1000" height="625" loading="lazy" decoding="async">
+      </picture>
       <h3>Siberia Lounge</h3>
       <p class="kind">Кальянная с кухней и караоке</p>
       <p class="meta">ул. Труда, 181<br><span>Вс–Чт 12:00–01:00 · Пт–Сб 12:00–03:00</span>
@@ -548,25 +609,6 @@
       });
     });
   }
-
-  // optional local photos: drop files into a "photos" folder next to this file
-  var EXT=['jpg','jpeg','png','webp'];
-  [].forEach.call(document.querySelectorAll('.card[data-photo]'), function(card){
-    if(card.querySelector('img.ph')) return;
-    var slug=card.dataset.photo, i=0;
-    function tryNext(){
-      if(i>=EXT.length) return;
-      var img=new Image();
-      img.onload=function(){
-        img.className='ph'; img.alt='';
-        var ill=card.querySelector('.ill'); if(ill) ill.remove();
-        card.insertBefore(img, card.firstElementChild);
-      };
-      img.onerror=function(){ i++; tryNext(); };
-      img.src='photos/'+slug+'.'+EXT[i];
-    }
-    tryNext();
-  });
 
   // tap address to copy
   [].forEach.call(document.querySelectorAll('.card .meta'), function(m){
